@@ -1,0 +1,15 @@
+a {
+  text-decoration: none;
+  color: rgba(153, 153, 153, 1);
+  font-size: 13px;
+  line-height: 16px;
+}
+
+a > .page-nav__elem :active{
+  color: rgba(90, 140, 241, 1);
+}
+
+.root {
+  background-color: rgba(250, 244, 244, 1);
+  font-family: 'Roboto', sans-serif;
+}

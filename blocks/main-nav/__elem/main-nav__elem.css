@@ -1,0 +1,16 @@
+.main-nav__elem {
+  flex: 1 1 auto;
+  color: rgba(153, 153, 153, 1);
+}
+
+@media(max-width:480px) {
+  .for-large-screens {
+    display:none;
+  }
+}
+
+@media(min-width:481px) {
+  .for-small-screens {
+    display:none;
+  }
+}

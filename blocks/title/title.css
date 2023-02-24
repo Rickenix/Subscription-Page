@@ -1,0 +1,23 @@
+.title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 72px;
+  letter-spacing: -0.01em;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+@media (max-width: 580px) {
+  .title {
+    font-size: 42px;
+    line-height: 42px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
