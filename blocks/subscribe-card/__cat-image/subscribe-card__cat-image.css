@@ -1,0 +1,22 @@
+.subscribe-card__cat-image {
+  position: absolute;
+  align-self: flex-end;
+  top: -20px;
+  right: -20px;
+}
+
+@media (max-width: 480px) {
+  .subscribe-card__cat-image {
+    max-width: 70px;
+    width: 100%;
+    top: -12px;
+    right: -12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .subscribe-card__cat-image {
+    top: -8px;
+    right: -8px;
+  }
+}

@@ -1,0 +1,20 @@
+.subscribe-card {
+  box-sizing: border-box;
+  max-width: 476px;
+  width: 100%;
+  color: rgba(102, 102, 102, 1);
+  border-radius: 20px;
+  border: 1px solid rgb(250, 182, 182);
+  box-shadow: -10px 10px 15px rgba(250, 182, 182, 0.3);
+  padding: 25px;
+  justify-self: center;
+}
+
+
+@media (max-width: 480px) {
+  .subscribe-card {
+    padding: 15px;
+    box-shadow: -5px 5px 10px rgba(250, 182, 182, 0.3);
+  }
+}
+

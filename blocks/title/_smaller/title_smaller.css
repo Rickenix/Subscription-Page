@@ -1,0 +1,18 @@
+.title_smaller {
+  color: rgb(92, 54, 54);
+  flex: 0 1 auto;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  margin: 0 0;
+  align-self: center;
+}
+
+@media(max-width: 700px) {
+  .title_smaller {
+    align-self: start;
+    font-size: 22px;
+    line-height: 30px;
+  }
+}

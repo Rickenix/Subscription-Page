@@ -1,0 +1,5 @@
+.choose-mailing-lists__mail {
+  display: flex;
+  width: 100%;
+  justify-content:end;
+}

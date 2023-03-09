@@ -57,15 +57,15 @@
       </nav>
     </header>
 
-    <main>
+    <main class="main-wrapper">
 
       <section class="clerks-subscriptions">
         <h1 class="title">
-          Подписки «Клерка»
+          Подписки «Офисного котика»
         </h1>
         <nav>
           <ul class="page-nav">
-            <li>
+            <li class="always-active">
               <a class="page-nav__elem" href="#">
                 Рассылки
               </a>
@@ -89,17 +89,20 @@
           Выберите рассылки, которые подходят именно вам
         </h2>
         <div class="choose-mailing-lists__mail">
-          <input type="text" name="email" value="Электронная почта" tabindex="1">
+          <input class="choose-mailing-lists__send-mail" type="text" name="email" placeholder="Электронная почта"
+            tabindex="1">
           <button class="button" alt="Подписаться">
             Подписаться
           </button>
+          <button class="button__for-small-screen" alt="Подписаться">
+          </button>
         </div>
         <div class="switch">
-          <label class="switch__wrapper">
+          <label class="switch__wrapper switch__wrapper_small">
             <input type="checkbox" id="subscribe">
-            <span class="switch__slider"></span>
+            <span class="switch__slider switch__slider_small"></span>
           </label>
-          <label class="switch__text" for="subscribe">
+          <label class="switch__text switch__text_small" for="subscribe">
             Подписаться на все рассылки
           </label>
         </div>
@@ -107,140 +110,154 @@
 
       <ul class="cards">
         <li class="subscribe-card">
-          <article class="subscribe-card__info">
+          <article class="subscribe-card__article">
+            <img class="subscribe-card__cat-image" src="./img/first-cat.png" alt="кот в шоке">
             <span class="title__overhead">
-              Перед рассветом
+              Рассветный тыгыдык (5AM)
             </span>
             <h3 class="title__subtitle">
-              Утренний бухгалтер
+              Breaking news
             </h3>
-            <p>
-              Самые важные новости и события за день. Кратко, по делу, структурировано.
+            <p class="subscribe-card__text">
+              Самая краткая и интригующая новостная сводка о последних кошачьих проделках и утехах.
             </p>
-            <div class="subscribe-card__daws">
-              <img src="img/green_daw.png" alt="green-daw">
-              <p>
-                Новости для бухгалтеров, ИП и директора
-              </p>
-              <img src="img/green_daw.png" alt="green-daw">
-              <p>
-                Подборка статей за день
-              </p>
+            <ul class="subscribe-card__daws">
+              <li>
+                <p class="subscribe-card__сomponents">
+                  Шок-контент
+                </p>
+              </li>
+              <li>
+                <p class="subscribe-card__сomponents">
+                  Будет что обсудить с коллегами за чашкой кофе
+                </p>
+              </li>
+            </ul>
+            <div class="switch">
+              <label class="switch__wrapper">
+                <input type="checkbox" id="subscribe">
+                <span class="switch__slider"></span>
+              </label>
+              <label class="switch__text" for="subscribe">
+                Уже получает 59 342 человек
+              </label>
             </div>
           </article>
-          <div class="switch">
-            <label class="switch__wrapper">
-              <input type="checkbox" id="subscribe">
-              <span class="switch__slider"></span>
-            </label>
-            <label class="switch__text" for="subscribe">
-              Уже получает 59 342 человек
-            </label>
-          </div>
         </li>
         <li class="subscribe-card">
-          <article class="subscribe-card__info">
+          <article class="subscribe-card__article">
+            <img class="subscribe-card__cat-image" src="./img/second-cat.png" alt="хитрый кот">
             <span class="title__overhead">
-              После заката
+              Вечерняя охота (7PM)
             </span>
             <h3 class="title__subtitle">
-              Ночной бухгалтер
+              Учим кошачий язык
             </h3>
-            <p>
-              Самая краткая газета о налогах и бухучете в мире — современная рассылка для чтения.
+            <p class="subscribe-card__text">
+              Современная
+              рассылка для
+              чтения. Кратко, структурировано, доступно.
             </p>
-            <div class="subscribe-card__daws">
-              <img src="img/green_daw.png" alt="green-daw">
-              <p>
-                Анализ, оценка и только самое главное
-              </p>
-              <img src="img/green_daw.png" alt="green-daw">
-              <p>
-                Лучшие комменты юзеров в обзоре
-              </p>
+            <ul class="subscribe-card__daws">
+              <li>
+                <p class="subscribe-card__сomponents">
+                  Новые методики общения с хвостатыми
+                </p>
+              </li>
+              <li>
+                <p class="subscribe-card__сomponents">
+                  Анализ и расшифровка кошачьего МЯУ
+                </p>
+              </li>
+            </ul>
+            <div class="switch">
+              <label class="switch__wrapper">
+                <input type="checkbox" id="subscribe">
+                <span class="switch__slider"></span>
+              </label>
+              <label class="switch__text" for="subscribe">
+                Уже получает 37 480 человек
+              </label>
             </div>
           </article>
-          <div class="switch">
-            <label class="switch__wrapper">
-              <input type="checkbox" id="subscribe">
-              <span class="switch__slider"></span>
-            </label>
-            <label class="switch__text" for="subscribe">
-              Уже получает 37 480 человек
-            </label>
-          </div>
         </li>
         <li class="subscribe-card">
-          <article class="subscribe-card__info">
+          <article class="subscribe-card__article">
+            <img class="subscribe-card__cat-image" src="./img/third-cat.png" alt="плачущий кот">
             <span class="title__overhead">
-              Раз в две недели
+              Раз в неделю
             </span>
             <h3 class="title__subtitle">
-              Ножницы скидок
+              Скидки на кошачий корм
             </h3>
-            <p>
-              Подборка самых выгодных и полезных спецпредложений от надежных компаний.
+            <p class="subscribe-card__text">
+              Подборка самых выгодных и полезных спецпредложений от всех зоомагазинов вселенной.
             </p>
-            <div class="subscribe-card__daws">
-              <img src="img/green_daw.png" alt="green-daw">
-              <p>
-                Акции и скидки от лидеров рынка
-              </p>
-              <img src="img/green_daw.png" alt="green-daw">
-              <p>
-                Те, кто подписался – экономят много денег
-              </p>
+            <ul class="subscribe-card__daws">
+              <li>
+                <p class="subscribe-card__сomponents">
+                  Акции и скидки от лидеров рынка
+                </p>
+              </li>
+              <li>
+                <p class="subscribe-card__сomponents">
+                  Те, кто подписался – экономят много денег (на сэкономленные покупают коту вкусняшки)
+                </p>
+              </li>
+            </ul>
+            <div class="switch">
+              <label class="switch__wrapper">
+                <input type="checkbox" id="subscribe">
+                <span class="switch__slider"></span>
+              </label>
+              <label class="switch__text" for="subscribe">
+                Уже получает 92 118 человек
+              </label>
             </div>
           </article>
-          <div class="switch">
-            <label class="switch__wrapper">
-              <input type="checkbox" id="subscribe">
-              <span class="switch__slider"></span>
-            </label>
-            <label class="switch__text" for="subscribe">
-              Уже получает 92 118 человек
-            </label>
-          </div>
         </li>
         <li class="subscribe-card">
-          <article class="subscribe-card__info">
+          <article class="subscribe-card__article">
+            <img class="subscribe-card__cat-image" src="./img/last-cat.png" alt="довольный кот">
             <span class="title__overhead">
-              По мере появления анонсов
+              all day all night
             </span>
             <h3 class="title__subtitle">
-              Чемодан вебинаров
+              Чемодан мемов
             </h3>
-            <p>
-              Подборка с анонсами бесплатных вебинаров на самые топовые темы при участии экспертов.
+            <p class="subscribe-card__text">
+              Подборка мемов со смешными котами, которые ты обязательно захочешь скачать и отправить друзьям.
             </p>
-            <div class="subscribe-card__daws">
-              <img src="img/green_daw.png" alt="green-daw">
-              <p>
-                Никогда не пришлем платные вебинары
-              </p>
-              <img src="img/green_daw.png" alt="green-daw">
-              <p>
-                Подборка топовых тем для вебинаров
-              </p>
+            <ul class="subscribe-card__daws">
+              <li>
+                <p class="subscribe-card__сomponents">
+                  Никогда не пришлем несмешные мемы
+                </p>
+              </li>
+              <li>
+                <p class="subscribe-card__сomponents">
+                  Можешь показать коту – он тоже посмеется (над тобой)
+                </p>
+              </li>
+            </ul>
+            <div class="switch">
+              <label class="switch__wrapper">
+                <input type="checkbox" id="subscribe">
+                <span class="switch__slider"></span>
+              </label>
+              <label class="switch__text" for="subscribe">
+                Уже получает 92 082 человек
+              </label>
             </div>
           </article>
-          <div class="switch">
-            <label class="switch__wrapper">
-              <input type="checkbox" id="subscribe">
-              <span class="switch__slider"></span>
-            </label>
-            <label class="switch__text" for="subscribe">
-              Уже получает 92 082 человек
-            </label>
-          </div>
         </li>
       </ul>
 
     </main>
 
-    <footer>
-      <div class="footer">
-      </div>
+    <footer class="footer">
+      <span class="footer__text">такие дела</span>
+      <img src="./img/crying-cat-small.png" alt="котик с маслицем">
     </footer>
   </div>
 </body>

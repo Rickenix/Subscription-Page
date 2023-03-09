@@ -15,6 +15,8 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 
+/* main-wrapper */
+@import url(../blocks/main-wrapper/main-wrapper.css);
 
 /* main-nav */
 
@@ -33,11 +35,16 @@
 @import url(../blocks/choose-mailing-lists/choose-mailing-lists.css);
 @import url(../blocks/choose-mailing-lists/__mail/choose-mailing-lists__mail.css);
 @import url(../blocks/title/_smaller/title_smaller.css);
+@import url(../blocks/choose-mailing-lists/__send-mail/choose-mailing-lists__send-mail.css);
 @import url(../blocks/switch/switch.css);
 @import url(../blocks/switch/__slider/switch__slider.css);
+@import url(../blocks/switch/__slider/_small/switch__slider_small.css);
 @import url(../blocks/switch/__text/switch__text.css);
+@import url(../blocks/switch/__text/_small/switch__text_small.css);
 @import url(../blocks/switch/__wrapper/switch__wrapper.css);
+@import url(../blocks/switch/__wrapper/_small/switch__wrapper_small.css);
 @import url(../blocks/button/button.css);
+@import url(../blocks/button/__for-small-screen/button__for-small-screen.css);
 
 /* cards */
 
@@ -47,8 +54,13 @@
 @import url(../blocks/subscribe-card/__info/subscribe-card__info.css);
 @import url(../blocks/title/__overhead/title__overhead.css);
 @import url(../blocks/title/__subtitle/title__subtitle.css);
+@import url(../blocks/subscribe-card/__text/subscribe-card__text.css);
+@import url(../blocks/subscribe-card/__cat-image/subscribe-card__cat-image.css);
+@import url(../blocks/subscribe-card/__сomponents/subscribe-card__сomponents.css);
+@import url(../blocks/subscribe-card/__article/subscribe-card__article.css);
 
 
 /* footer */
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__text/footer__text.css);
