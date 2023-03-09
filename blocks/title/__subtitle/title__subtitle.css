@@ -1,0 +1,14 @@
+.title__subtitle {
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color:  rgb(92, 54, 54);
+  width: 80%;
+}
+
+@media (max-width: 390px) {
+  .title__subtitle {
+    width: 60%;
+  }
+}

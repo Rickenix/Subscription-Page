@@ -1,0 +1,17 @@
+.choose-mailing-lists__send-mail {
+  box-sizing: border-box;
+  padding: 18px 16px;
+  text-decoration: none;
+  border: none;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  flex: 0 1 100%;
+  position: relative;
+}
+
+.choose-mailing-lists__send-mail:focus {
+  outline: none; 
+  border: none; 
+  box-shadow: 1px 1px 10px rgb(250, 182, 182);
+}
+

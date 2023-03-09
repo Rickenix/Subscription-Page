@@ -1,0 +1,12 @@
+.title__overhead {
+  color: rgba(153, 153, 153, 1);
+  font-size: 13px;
+  line-height: 16px;
+  width: 60%;
+}
+
+@media (max-width: 380px) {
+  .title__overhead {
+    width: 50%;
+  }
+}

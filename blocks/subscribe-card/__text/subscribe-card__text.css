@@ -1,0 +1,11 @@
+.subscribe-card__text {
+  margin: 0;
+  width: 80%;
+  overflow-wrap: normal;
+}
+
+@media (max-width: 900px) {
+  .subscribe-card__text {
+
+  }
+}

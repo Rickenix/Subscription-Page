@@ -1,0 +1,15 @@
+.subscribe-card__article {
+  background-color: rgba(250, 244, 244, 1);
+  padding: 10px;
+  font-size: 14px;
+  position: relative;
+  box-sizing: content-box;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+  justify-content: space-around;
+  border-radius: 20px;
+  border-top-right-radius: 200px;
+}

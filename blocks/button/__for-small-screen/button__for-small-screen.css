@@ -1,0 +1,16 @@
+.button__for-small-screen {
+  display: none;
+  background: url(../../../img/Vector.png) rgb(250, 182, 182) center no-repeat;
+  cursor: pointer;
+  position: absolute;
+  border: none;
+  border-radius: 50%;
+  padding: 28px;
+}
+
+@media(max-width: 500px) {
+  .button__for-small-screen {
+    display: block;
+  }
+}
+

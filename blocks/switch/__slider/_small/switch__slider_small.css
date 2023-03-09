@@ -1,4 +1,4 @@
-.switch__slider {
+.switch__slider_small {
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -7,30 +7,30 @@
   bottom: 0;
   background-color: rgba(204, 204, 204, 1);
   transition: .4s;
-  border-radius: 34px;
+  border-radius: 36px;
 }
 
-.switch__slider:before {
+.switch__slider_small:before {
   position: absolute;
   content: "";
-  height: 20px;
-  width: 20px;
-  left: 2px;
-  bottom: 2px;
+  height: 14px;
+  width: 14px;
+  left: 1px;
+  bottom: 1px;
   background-color: rgb(252, 235, 235);
   transition: .4s;
   border-radius: 50%;
 }
 
-input:checked + .switch__slider {
+input:checked + .switch__slider_small {
   background-color: rgb(250, 182, 182);
 }
 
-input:focus + .switch__slider {
+input:focus + .switch__slider_small {
   box-shadow: 0 0 1px rgb(250, 182, 182);
 }
 
-input:checked + .switch__slider:before {
-  transform: translateX(21.5px);
+input:checked + .switch__slider_small:before {
+  transform: translateX(16px);
   border-radius: 50%;
 }
